@@ -1,0 +1,488 @@
+/* ______________________TAB DISPLAY___________________________________ */
+@media (max-width: 1118px) {
+    .both_brgr {
+        display: block;
+    }
+
+    .main .nav_container {
+        height: fit-content;
+    }
+
+    .nav_list {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .right_nav .nav_list ol {
+        height: 100vh;
+        width: 60%;
+        position: fixed;
+        top: 0;
+        right: -60%;
+        padding-top: 10%;
+        flex-direction: column;
+        background: #fffffffc;
+        border: 3px solid #fc5000;
+        z-index: 999;
+        transition: right 0.5s ease;
+    }
+
+    .nav_list ol li {
+        margin-top: 7%;
+        text-align: center;
+
+    }
+
+    .nav_container .nav_items {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .left_items {
+        width: 100%;
+        height: 50vh;
+        /* border: 2px solid; */
+        position: relative;
+        height: fit-content;
+        padding: 2%;
+        padding-left: 4%;
+        justify-content: left;
+    }
+
+    .left_items .page {
+        /* border: 2px solid wheat; */
+        width: 60%;
+        height: 290px;
+    }
+
+    .right_items {
+        /* border: 2px solid; */
+        width: 90%;
+    }
+
+    .right_items .right_items_container {
+        height: 295px;
+        width: 100%;
+        margin-left: unset;
+        position: relative;
+        align-items: center;
+    }
+
+    .left_nav .img {
+        position: fixed;
+
+    }
+
+    .right_items .video_p {
+        margin-top: 2%;
+        position: absolute;
+        top: 0%;
+    }
+
+    .right_items .slide_part {
+        height: fit-content;
+        border: 2px splid red;
+        margin-left: unset;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .p_fix {
+        position: fixed;
+        z-index: 999;
+    }
+
+    .marquee-inner a {
+        width: 244px;
+    }
+
+    .marquee-inner {
+        gap: 55px
+    }
+
+    /* ||||||||||||||||||||||||||||||||||menu page |||||||||||||||||||||||||||||||||||| */
+    .menu_pic_disp {
+        width: 55%;
+    }
+
+    .main .container {
+        gap: unset;
+    }
+
+    .faetures .faetures_pages {
+        width: 90%;
+    }
+
+    .menu_pic_disp .p_m {
+        font-size: 1rem;
+    }
+
+    .container #h4 {
+        top: 0;
+    }
+}
+
+
+
+@media (max-width: 750px) {
+
+    body {
+        font-size: 14px;
+        height: auto;
+    }
+
+    body::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background: #fc5000;
+    }
+
+
+
+
+    .left_items .page_p {
+        font-size: 1.2rem;
+    }
+
+    .left_items .page {
+        height: 220px;
+    }
+
+    .left_items .page .btn button {
+        width: 155px;
+        height: 33px;
+    }
+
+    .left_items .page .btn {
+        margin-top: 2%;
+        bottom: 4%;
+    }
+
+    .right_items .video_p {
+        font-size: 1rem;
+        width: 350px;
+    }
+
+    .right_items .video_p span {
+        width: 75px;
+        height: 44px;
+    }
+
+    .right_items .video_p span i {
+        font-size: 20px;
+    }
+
+    .main .container {
+        height: 100vh;
+    }
+
+    .menu-list {
+        background-image: unset;
+        height: fit-content;
+        width: 94%;
+        box-shadow: 0 10px 28px rgb(0 0 0 / 0%), 0 10px 15px rgb(0 0 0);
+        padding-top: 1%;
+    }
+
+    .menu-list ul {
+        width: 100%;
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    .menu-list li {
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    .menu_pic_disp {
+        width: 400px;
+        height: 385px;
+
+        /* margin-bottom: 5%; */
+    }
+
+    .grid-container {
+        flex-direction: column;
+    }
+
+    .grid-item {
+        width: 100%;
+        height: 150px;
+    }
+
+    .f_g {
+        flex-direction: column;
+    }
+
+    .s_g {
+        flex-direction: column;
+    }
+
+    .f_g .one_g {
+        width: 100%;
+        height: 150px;
+    }
+
+    .s_g .four_g {
+        width: 100%;
+        height: 150px;
+    }
+
+    .slide_part {
+        bottom: unset;
+    }
+
+    .footer-heading {
+        font-size: 20px;
+    }
+
+    .social-icons {
+        margin-bottom: 30px;
+    }
+
+    .accordion {
+        flex-direction: column;
+        height: 500px;
+        box-shadow: none;
+    }
+
+    .box {
+        box-shadow: none;
+    }
+
+    .box:hover {
+        flex: 3;
+
+    }
+
+    .container #h4 {}
+
+    .circle-container {
+        width: 200px;
+        height: 200px;
+        margin: 30px auto;
+        animation: rotate-circle 17s linear infinite;
+    }
+
+    .circle-container svg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .P-abs {
+        right: 5%;
+        top: 12%;
+    }
+}
+
+
+
+
+
+@media (max-width: 510px) {
+    .main .container {
+        height: 80vh;
+        padding-top: 8%;
+    }
+
+    .container #h4 {
+        font-size: 1.3rem;
+        width: 90%;
+        text-align: center;
+
+    }
+
+    .namaskar {
+        width: 120px;
+        height: 240px;
+        top: 29%;
+        left: 75%;
+    }
+
+    .left_items .page_p {
+        font-size: medium;
+    }
+
+    .page_p p span {
+        padding-top: 3%;
+    }
+
+    .left_items .page {
+        /* height: 280px; */
+        margin-bottom: 4%;
+    }
+
+    .page #nn {
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+
+    .marquee-inner a {
+        width: 144px;
+    }
+
+    .marquee-inner {
+        gap: 19px;
+    }
+
+    .right_items .right_items_container {
+        height: 80%;
+    }
+
+    .left_items .page .btn {
+        margin-top: 2%;
+        bottom: 4%;
+    }
+
+    .left_items .page .btn button {
+        width: 185px;
+        height: 34px;
+        color: #fc5000;
+        font-weight: 600;
+        border: 2px solid #fc5000;
+        background: #c3c0bf9a;
+        font-size: 15px;
+    }
+
+    .right_items {
+        width: 100%;
+        height: 230px;
+        /* border: 2px solid red; */
+    }
+
+    .right_items .slide_part {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .right_items .video_p span {
+        margin-bottom: unset;
+    }
+
+    .menu-details {
+        margin-top: 14%;
+        height: 83%;
+        /* border: 2px solid rgb(193, 185, 185); */
+        position: relative;
+    }
+
+    .all-menu {
+        position: absolute;
+        bottom: 15%;
+        /* border: 2px solid yellow; */
+    }
+
+    #menu-description {
+        /* border: 1px solid red; */
+    }
+
+    #menu-description p {
+        margin-top: 2%;
+        font-size: medium;
+        line-height: 20px;
+    }
+
+    #menu-description h3 {
+        font-size: 1.3rem;
+        color: black;
+        margin-top: 4%;
+        /* color: aliceblue; */
+    }
+
+    .menu-details img {
+        margin-top: 2%;
+        max-width: 40%;
+    }
+
+    .menu-details .p_m {
+        color: black;
+        font-size: small;
+        width: 60%;
+        font-weight: 900;
+    }
+
+    .right_items .video_p {
+        font-size: 0.8rem;
+        width: 270px;
+        margin-left: unset;
+        margin-top: 5%;
+    }
+
+    .main .nav_container {
+        height: fit-content;
+    }
+
+    .faetures_pages .pages_f {
+        width: 100%;
+    }
+
+    .pages_f p {
+        font-size: 1rem;
+        line-height: 23px;
+    }
+
+    .right_nav .nav_list ol {
+        padding-top: 30%;
+    }
+
+    .nav_list ol li {
+        margin-top: 7%;
+    }
+
+    .sweets {
+        height: 450px;
+    }
+
+    .sweets .about_sweets {
+        width: 90%;
+        margin-bottom: 3%;
+        background-color: #fc5000;
+    }
+
+    .about_sweets h1 {
+        color: aliceblue;
+        font-size: 1.3rem;
+        /* margin-bottom: 1%; */
+        font-weight: 400;
+    }
+
+    .sweets .sweet_imges .fs_box img {
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+    }
+
+    .sweets .sweet_imges2 .fs_box img {
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+    }
+
+    .circle-container {
+        width: 160px;
+        height: 160px;
+        margin: 20px auto;
+        animation: rotate-circle 19s linear infinite;
+    }
+
+    .circle-container svg {
+        width: 160px;
+        height: 160px;
+    }
+
+    .P-abs {
+        right: 5%;
+        top: -3%;
+        font-size: 12px;
+    }
+
+}
